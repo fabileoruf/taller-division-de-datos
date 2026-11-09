@@ -1,14 +1,15 @@
 # División de datos
 
-Presentación de Fabiana Leonardo Rufino sobre entrenamiento, validación y prueba en aprendizaje automático.
-
 **[Abrir la presentación en PDF](presentacion.pdf)**
 
-La exposición sigue doce flores del conjunto Iris. Seis sirven para aprender, tres para elegir entre dos reglas y tres para medir el resultado final. Después se explican las proporciones de reparto, la estratificación, el sobreajuste, la fuga de información, la validación cruzada y el orden temporal. El cierre incluye una explicación oral en inglés.
+Exposición de Fabiana Leonardo Rufino sobre cómo separar ejemplos para entrenar un modelo, elegir entre alternativas y evaluar el resultado final. La introducción parte de un filtro de correo no deseado y define qué es una fila, qué es una etiqueta y qué predice un modelo.
 
-## Fuentes
+Los doce correos del ejemplo son ficticios. Seis sirven para proponer dos reglas, tres para elegir una y tres para comprobar qué ocurre con mensajes que quedaron reservados. Las diapositivas muestran también cómo elegir proporciones, mantener representadas las clases y reconocer problemas como el sobreajuste o las fugas de información.
 
-- [Datos de Iris, scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html)
-- [División de datos y validación, scikit-learn](https://scikit-learn.org/stable/modules/cross_validation.html)
-- [Fugas de información, scikit-learn](https://scikit-learn.org/stable/common_pitfalls.html)
-- Fotografía de *Iris versicolor*, U.S. Fish and Wildlife Service, dominio público. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Iris_versicolor_FWS.jpg)
+La presentación contiene 21 diapositivas. Los cinco tramos en inglés (6, 10, 12, 17 y 20) incluyen una explicación de apoyo en español.
+
+## Referencias
+
+- [División de datos y validación cruzada](https://scikit-learn.org/stable/modules/cross_validation.html)
+- [Reparto reproducible y estratificación](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+- [Fugas de información y errores frecuentes](https://scikit-learn.org/stable/common_pitfalls.html)
